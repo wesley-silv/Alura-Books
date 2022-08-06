@@ -1,0 +1,47 @@
+@import url('styles/header.css');
+:root {
+  --background-color: #ebecee;
+  --white-color: #ffffff;
+  --orange-color: #eb9800;
+  --blue-gradient: linear-gradient(97.54deg, #002f52 35.49%, #326598 165.37%);
+}
+body {
+  background-color: var(--background-color);
+}
+.cabecalho {
+  background-color: var(--white-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.container {
+  display: flex;
+  align-items: center;
+}
+.container__imagem {
+  padding: 1em;
+}
+.lista-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  width: 60vw;
+}
+.container__botao:checked ~ .lista-menu {
+  display: block;
+}
+.lista-menu__titulo, .lista-menu__item {
+  padding: 1em;
+  background-color: var(--white-color);
+}
+.lista-menu__titulo {
+  color:var(--orange-color);
+}
+.lista-menu__link {
+  background: var(--blue-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+}

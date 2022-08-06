@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css"> 
+  <link rel="stylesheet" href="reset.css"> <!--- Usando o reset css, que é uma forma de estilo que vai resetar configurações padrão do html, esta folha pode ser importada junto html em um link: css, o o seu arquivo com extensão .css. Esse código pode ser encontrado no google. -->
+
+  <title>AluraBooks</title>
+</head>
+<body>
+  <header class="cabecalho">
+    <div class="container">
+      <input type="checkbox" class="container__botao" id="menu">
+      <label for="menu">
+        <span class="cabecalho__menu-hamburguer container__imagem">
+        </span>
+      </label>
+      <ul class="lista-menu">
+        <li class="lista-menu__titulo">Categorias</li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Programação</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Front-end</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Infraestrutura</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Business</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__link">Design & UX</a>
+        </li>
+      </ul>
+      <img src="logo.svg" alt="logo do alura books" class="container__imagem">
+    </div>
+    <div class="container">
+      <a href="#">
+        <img src="favorite.svg" alt="logo de um coração em 2d" class="container__imagem">
+      </a>
+      <a href="#">
+        <img src="store.svg" alt="logo de uma loja de compras" class="container__imagem">
+      </a>
+      <a href="#">
+        <img src="login-area.svg" alt="logo de um círculo com uma pessoa dentro em 2d" class="container__imagem">
+      </a>
+    </div>
+  </header>
+</body>
+<script src="scripts.js"></script>
+</html>
