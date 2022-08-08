@@ -23,6 +23,18 @@
   justify-content: space-between;
   margin-bottom: 0.5em;
 }
+.card__descricao ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0.5em 0;
+}
+.card__descricao ul li {
+  margin-right: 0.2em;
+}
+.card__descricao img, a {
+  border-radius: .2em
+}
 .card__botoes {
   display: flex;
   justify-content: space-between;
