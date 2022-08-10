@@ -28,7 +28,6 @@
   font-weight: 400;
   text-align: center;
   color: var(--font-poppins);
-  text-align: center;
-  background: url('lupa.svg') no-repeat;
+  background: url('../lupa.svg') no-repeat;
   background-position: 1em;
 }

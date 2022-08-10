@@ -1,7 +1,7 @@
 .topicos {
   background: var(--blue-gradient);
   text-align: center;
-  padding: 2.5em 0;
+  padding: 2em;
   box-sizing: border-box;
 }
 .topicos__titulo {
@@ -15,12 +15,12 @@
   flex-direction: column;
   gap: 1em;
   justify-content: center;
-  padding: 3em 0;
+  padding: 1.5em;
 }
 .topicos__botoes .topico-1, .topico-2, .topico-3 {
   display: flex;
   justify-content: center;
-  gap: 1.5em;
+  gap: .5em;
 }
 .topico__titulo {
   font-family: var(--font-poppins);
@@ -33,9 +33,9 @@
   font-size: 14px;
   font-weight: 700;
   text-decoration: none;
-  padding: 1.5em 2.5em;
+  padding: .8em .6em;
   border-radius: 0.5em; 
 }
 .topicos__botoes ul {
-  margin: 1.8em 0;
+  margin: 1.5em 0;
 }

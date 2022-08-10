@@ -2,6 +2,7 @@
 @import url('styles/banner.css');
 @import url('styles/carrossel.css');
 @import url('styles/topicos.css');
+@import url('styles/form.css');
 :root {
   --background-color: #ebecee;
   --white-color: #ffffff;
