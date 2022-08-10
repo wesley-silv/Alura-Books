@@ -1,29 +1,28 @@
-form {
+.formulario {
   background-color: var(--white-color);
-  color: var(--blue-gradient);
+  color: var(--blue-color);
   text-align: center;
   font-family: var(--font-poppins);
-  padding: 1.5em 1em;
+  padding: 2.5em 2em;
 }
 .form__titulo {
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 27px;
-  padding-top: 1em;
 }
 .form__paragrafo {
   font-weight: 300;
   line-height: 24px;
   flex-wrap: wrap;
-  margin: 1em 0;
+  margin: 1.8em 0
 }
 .form__input {
   background: transparent;
   border: solid 1px var(--blue-color);
   color: var(--blue-color);
   border-radius: 24px;
-  padding: 1em 1.5em;
   width: 100%;
+  padding: 1em 2em;
 }
 .form__input::placeholder {
   color: var(--blue-color);
@@ -31,6 +30,6 @@ form {
   font-size: 14px;
   font-weight: 400;
   text-align: center;
-  background-image: url('../email-img.svg') no-repeat;
+  background: url('../email-img.svg') no-repeat;
   background-position: 1em;
 }
