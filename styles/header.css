@@ -47,3 +47,41 @@
 .container__botao {
   display: none;
 }
+
+.container__titulo, .opcoes {
+  display: none;
+}
+/* Media Query */
+@media screen and (min-width: 1024px) {
+  .container__titulo, .container__titulo--negrito {
+    font-family: var(--font-josefin);
+    font-size: 30px;
+    display:contents;
+  }
+  .container__titulo {
+    font-weight: 400;
+  }
+  .container__titulo--negrito {
+    font-weight: 700;
+  }
+  .opcoes {
+    display: flex;
+    align-items: center;
+    display: contents;
+    color: #000000;
+    font-family: var(--font-poppins);
+    text-transform: uppercase;
+  }
+  .opcões__item {
+    font-weight: 400;
+    padding: 0 1em;
+  }
+  .opcoes__link {
+    color: #000000;
+    font-weight: 400;
+    text-decoration: none;
+  }
+  #favorite {
+    display: none;
+  }
+}

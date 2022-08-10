@@ -17,6 +17,10 @@
       href="https: //fonts.googleapis.com/css2? family= Poppins:wght@300;400;500;700 & display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https: //fonts.googleapis.com/css2? family= Josefin+Sans:wght@400;700 & display=swap"
+      rel="stylesheet"
+    />
     <title>AluraBooks</title>
   </head>
   <body>
@@ -49,11 +53,24 @@
           alt="logo do alura books"
           class="container__imagem"
         />
+        <h1 class="container__titulo">
+          <b class="container__titulo--negrito"> Alura </b>
+          Books
+        </h1>
       </div>
+      <ul class="opcoes">
+        <li class="opcoes__item">Categorias</li>
+        <li class="opcoes__item"><a href="#" class="opcoes__link">
+          Favoritos
+        </a></li>
+        <li class="opcoes__item"><a href="#" class="opcoes__link">
+          Minha estante
+        </a></li>
+      </ul>
       <div class="container">
         <a href="#">
           <img
-            src="favorite.svg"
+            src="favorite.svg" id="favorite"
             alt="logo de um coração em 2d"
             class="container__imagem"
           />
@@ -129,15 +146,17 @@
             <h3 class="descricao__titulo">
               Talves você também se interesse por...
             </h3>
-            <h2 class="descricao__titulo-livro">
-              Angular 11 e Firebase
-            </h2>
+            <h2 class="descricao__titulo-livro">Angular 11 e Firebase</h2>
             <p class="descricao__texto">
-            Construindo uma aplicação integrada com a plataforma do Google.
+              Construindo uma aplicação integrada com a plataforma do Google.
             </p>
           </div>
           <!-- 2° Coluna -->
-          <img src="angular-img.svg" alt="imagem do símbolo da linguagem angular" class="descricao__imagem">
+          <img
+            src="angular-img.svg"
+            alt="imagem do símbolo da linguagem angular"
+            class="descricao__imagem"
+          />
         </div>
 
         <!-- 2° Linha -->
@@ -145,10 +164,13 @@
           <!-- 1° Coluna -->
           <ul class="botoes">
             <li class="botoes__item">
-              <img src="favorite.svg" alt="imagem de um coração de seleção de favoritos em 2d">
+              <img
+                src="favorite.svg"
+                alt="imagem de um coração de seleção de favoritos em 2d"
+              />
             </li>
             <li class="botoes__item">
-              <img src="store.svg" alt="imagem de uma loja de compras ">
+              <img src="store.svg" alt="imagem de uma loja de compras " />
             </li>
           </ul>
           <!-- 2° Coluna -->
@@ -157,7 +179,7 @@
       </div>
     </section>
 
-<!-- Section do segundo carrossel, o layout foi replicado para produzir os mesmos efeitos do carrossel anterior, porém com modificações--> 
+    <!-- Section do segundo carrossel, o layout foi replicado para produzir os mesmos efeitos do carrossel anterior, porém com modificações-->
     <section class="carrossel">
       <h2 class="carrossel__titulo">Mais vendidos</h2>
       <!-- Slider main container -->
@@ -197,34 +219,38 @@
           <!-- 1° Coluna -->
           <div class="descricao">
             <ul>
-              <li><img src="star.svg" alt="imagem de um estrela"></li>
-              <li><img src="star.svg" alt="imagem de um estrela"></li>
-              <li><img src="star.svg" alt="imagem de um estrela"></li>
-              <li><img src="star.svg" alt="imagem de um estrela"></li>
-              <li><img src="star.svg" alt="imagem de um estrela"></li>
+              <li><img src="star.svg" alt="imagem de um estrela" /></li>
+              <li><img src="star.svg" alt="imagem de um estrela" /></li>
+              <li><img src="star.svg" alt="imagem de um estrela" /></li>
+              <li><img src="star.svg" alt="imagem de um estrela" /></li>
+              <li><img src="star.svg" alt="imagem de um estrela" /></li>
             </ul>
-            <h3 class="descricao__titulo">
-              Autora do Mês
-            </h3>
-            <h2 class="descricao__titulo-livro">
-              Juliana Agarikov
-            </h2>
+            <h3 class="descricao__titulo">Autora do Mês</h3>
+            <h2 class="descricao__titulo-livro">Juliana Agarikov</h2>
             <p class="descricao__texto">
-            Analista de sistemas e escritora, Juliana é especialista em Front-End.
+              Analista de sistemas e escritora, Juliana é especialista em
+              Front-End.
             </p>
           </div>
           <!-- 2° Coluna -->
-          <img src="woman-img.svg" alt="imagem do símbolo da linguagem angular" class="descricao__imagem">
+          <img
+            src="woman-img.svg"
+            alt="imagem do símbolo da linguagem angular"
+            class="descricao__imagem"
+          />
         </div>
         <!-- 2° Linha -->
         <div class="card__botoes">
           <!-- 1° Coluna -->
           <ul class="botoes">
             <li class="botoes__item">
-              <img src="favorite.svg" alt="imagem de um coração de seleção de favoritos em 2d">
+              <img
+                src="favorite.svg"
+                alt="imagem de um coração de seleção de favoritos em 2d"
+              />
             </li>
             <li class="botoes__item">
-              <img src="store.svg" alt="imagem de uma loja de compras ">
+              <img src="store.svg" alt="imagem de uma loja de compras " />
             </li>
           </ul>
           <!-- 2° Coluna -->
@@ -233,9 +259,7 @@
       </div>
     </section>
     <section class="topicos">
-      <h2 class="topicos__titulo">
-        Topicos visitados recentemente
-      </h2>
+      <h2 class="topicos__titulo">Topicos visitados recentemente</h2>
       <div class="topicos__botoes">
         <ul class="topico-1">
           <li><a href="#">Android</a></li>
@@ -254,22 +278,21 @@
       </div>
     </section>
     <form class="formulario">
-      <h2 class="form__titulo">
-        Fique por dentro das novides!
-      </h2>
+      <h2 class="form__titulo">Fique por dentro das novides!</h2>
       <p class="form__paragrafo">
         Atalizações de e-books, novos livros, promoções e outros.
       </p>
-      <input type="search" name="" class="form__input" placeholder="Cadastre seu Email">
+      <input
+        type="search"
+        name=""
+        class="form__input"
+        placeholder="Cadastre seu Email"
+      />
     </form>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <footer class="footer">
-      <h2 class="footer__titulo">
-        Grupo Alura
-      </h2>
-      <h3 class="footer__texto">
-        Dev Wesley Silva
-      </h3>
+      <h2 class="footer__titulo">Grupo Alura</h2>
+      <h3 class="footer__texto">Dev Wesley Silva</h3>
     </footer>
   </body>
   <script src="scripts.js"></script>
