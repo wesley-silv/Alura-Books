@@ -1,0 +1,15 @@
+.footer {
+  background-color: var(--blue-color);
+  color: var(--white-color);
+  text-align: center;
+  padding: 1.5em 2em;
+}
+.footer__titulo {
+  margin-bottom: 1.5em;
+  font-family: var(--font-poppins);
+  font-weight: 500;
+}
+.footer__texto {
+  text-align: right;
+  font-style: italic;
+}
