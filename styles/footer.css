@@ -13,3 +13,8 @@
   text-align: right;
   font-style: italic;
 }
+.footer__texto:hover {
+  color: var(--orange-color);
+  font-size: 1.1em;
+  transition: 300ms;
+}
