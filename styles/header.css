@@ -48,7 +48,10 @@
   display: none;
 }
 
-.container__titulo, .opcoes {
+.container__titulo {
+  display: none;
+}
+.opcoes {
   display: none;
 }
 /* Media Query */
@@ -81,7 +84,18 @@
     font-weight: 400;
     text-decoration: none;
   }
-  #favorite {
+  .container__imagem-transparente {
+    display: none;
+  }
+  .cabecalho__menu-hamburguer {
+    display: none;
+  }
+  .opcoes__botao:checked ~ .lista-menu {
+    display: block;
+    width: auto;
+  }
+  .opcoes__botao {
     display: none;
   }
 }
+
