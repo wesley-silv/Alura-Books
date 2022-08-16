@@ -39,15 +39,17 @@
     text-transform: uppercase;
     margin: 2em 0;
   }
-  .footer__educacao-item, .footer__educacao__online-item {
+  .footer__educacao-item, .footer__educacao__online-item, .footer__comunidade-item {
     display: flex;
     align-items: center;
     margin: 1.2em 0;
   }
-  .footer__educacao-link, .footer__educacao__online-link {
+  .footer__educacao-link, .footer__educacao__online-link, .footer__comunidade-link {
     text-decoration: none;
     color: var(--white-color);
     margin: 0 1em;
   }
-
+  .footer__texto {
+    display: block;
+  }
 }
