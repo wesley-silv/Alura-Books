@@ -39,3 +39,14 @@
 .topicos__botoes ul {
   margin: 1.5em 0;
 }
+/* MediaQuery */
+@media screen and (min-width: 1024px) {
+  .topicos__titulo {
+    font-size: 24px;
+  }
+  .topicos__botoes a {
+    font-size: 24px;
+    padding: .8em 1em;
+    margin:  0 .4em;
+  }
+}

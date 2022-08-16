@@ -74,3 +74,23 @@
   font-weight: 700;
   text-decoration: none;
 }
+/* Carrossel tablet */
+@media screen and (min-width: 1024px) {
+  .carrossel__titulo {
+    font-size: 26px;
+  }
+  .swiper-pagination {
+    margin: 1.5em 0;
+  }
+  .swiper {
+    width: 80%;
+  }
+  .swiper-button-prev, .swiper-button-next {
+    display: block;
+    top: 60%;
+  }
+  .card {
+    margin: 2em auto;
+    width: 40%;
+  }
+}
