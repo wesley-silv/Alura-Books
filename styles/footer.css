@@ -17,3 +17,37 @@
   font-size: 1.1em;
   transition: 300ms;
 }
+.footer__educacao, .footer__educacao-online, .footer__comunidade {
+  display: none;
+}
+@media screen and (min-width: 1024px) {
+  .footer__educacao, .footer__educacao-online, .footer__comunidade {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .5em;
+    font-family: var(--font-poppins);
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .educao__topico, .educacao-online__topico, .comunidade__topico {
+    text-transform: uppercase;
+    margin: 2em 0;
+  }
+  .footer__educacao-item, .footer__educacao__online-item {
+    display: flex;
+    align-items: center;
+    margin: 1.2em 0;
+  }
+  .footer__educacao-link, .footer__educacao__online-link {
+    text-decoration: none;
+    color: var(--white-color);
+    margin: 0 1em;
+  }
+
+}
