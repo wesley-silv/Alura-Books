@@ -57,5 +57,14 @@
   .footer__texto {
     display: block;
   }
+}
 
+@media screen and (min-width: 1728px) {
+  .footer {
+    padding: 3em 0;
+  }
+  .footer__educacao, .footer__educacao-online, .footer__comunidade {
+    border-left: solid 2px var(--white-color);
+    padding-left: 1.5em;
+  }
 }

@@ -50,3 +50,15 @@
     margin:  0 .4em;
   }
 }
+
+/* Media Query para o Desktop */
+@media screen and (min-width: 1728px) {
+  .topicos__titulo {
+    padding: 1.5em 0;
+  }
+  .topicos__botoes a {
+    margin: 0 1em;
+    padding: 1em 8vw;
+    box-sizing: border-box;
+  }
+}
