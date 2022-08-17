@@ -94,3 +94,34 @@
     width: 40%;
   }
 }
+@media screen and (min-width: 1728px) {
+  .banner {
+    padding: 4.5em;
+  }
+  .banner__pesquisa::placeholder {
+    background-position: 10em;
+  }
+  .banner__texto {
+    margin: 1.8em;
+  }
+  .carrossel__container {
+    display: flex;
+    align-items: center;
+    gap: 4em;
+    padding: 3em 1.5em;
+    box-sizing: border-box;
+  }
+  .carrossel__titulo {
+    padding-top: 1.5em 0;
+  }
+  .descricao__titulo {
+    font-size: 32px;
+  }
+  .descricao__texto {
+    font-size: 18px;
+    margin: 1.5em .5em;
+  }
+  .card {
+    width: 60%;
+  }
+}

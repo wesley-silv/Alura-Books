@@ -96,19 +96,25 @@
             class="container__imagem"
           />
         </a>
-        <a href="#">
+        <a href="#" class="container__link">
           <img
             src="store.svg"
             alt="logo de uma loja de compras"
             class="container__imagem"
           />
+          <p class="container__texto">
+            Minha sacola
+          </p>
         </a>
-        <a href="#">
+        <a href="#" class="container__link">
           <img
             src="login-area.svg"
             alt="logo de um círculo com uma pessoa dentro em 2d"
             class="container__imagem"
           />
+          <p class="container__texto">
+            Meu perfil 
+          </p>
         </a>
       </div>
     </header>
@@ -128,154 +134,158 @@
     <section class="carrossel">
       <h2 class="carrossel__titulo">Novos lançamentos</h2>
       <!-- Slider main container -->
-      <div class="swiper">
-        <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper">
-          <!-- Slides -->
-          <div class="swiper-slide">
-            <img src="book-one.svg" alt="livro 1" />
+      <div class="carrossel__container">
+        <div class="swiper">
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img src="book-one.svg" alt="livro 1" />
+            </div>
+            <div class="swiper-slide">
+              <img src="book-two.svg" alt="livro 2" />
+            </div>
+            <div class="swiper-slide">
+              <img src="book-three.svg" alt="livro 3" />
+            </div>
+            <div class="swiper-slide">
+              <img src="book-four.svg" alt="livro 4" />
+            </div>
+            <div class="swiper-slide">
+              <img src="book-five.svg" alt="livro 5" />
+            </div>
+            <div class="swiper-slide">
+              <img src="book-six.svg" alt="livro 6" />
+            </div>
+            ...
           </div>
-          <div class="swiper-slide">
-            <img src="book-two.svg" alt="livro 2" />
-          </div>
-          <div class="swiper-slide">
-            <img src="book-three.svg" alt="livro 3" />
-          </div>
-          <div class="swiper-slide">
-            <img src="book-four.svg" alt="livro 4" />
-          </div>
-          <div class="swiper-slide">
-            <img src="book-five.svg" alt="livro 5" />
-          </div>
-          <div class="swiper-slide">
-            <img src="book-six.svg" alt="livro 6" />
-          </div>
-          ...
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
         </div>
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
+  
+        <div class="card">
+          <!-- 1° Linha -->
+          <div class="card__descricao">
+            <!-- 1° Coluna -->
+            <div class="descricao">
+              <h3 class="descricao__titulo">
+                Talves você também se interesse por...
+              </h3>
+              <h2 class="descricao__titulo-livro">Angular 11 e Firebase</h2>
+              <p class="descricao__texto">
+                Construindo uma aplicação integrada com a plataforma do Google.
+              </p>
+            </div>
+            <!-- 2° Coluna -->
+            <img
+              src="angular-img.svg"
+              alt="imagem do símbolo da linguagem angular"
+              class="descricao__imagem"
+            />
+          </div>
+          <!-- 2° Linha -->
+          <div class="card__botoes">
+            <!-- 1° Coluna -->
+            <ul class="botoes">
+              <li class="botoes__item">
+                <img
+                  src="favorite.svg"
+                  alt="imagem de um coração de seleção de favoritos em 2d"
+                />
+              </li>
+              <li class="botoes__item">
+                <img src="store.svg" alt="imagem de uma loja de compras " />
+              </li>
+            </ul>
+            <!-- 2° Coluna -->
+            <a href="#" class="botoes__ancora">Saiba mais</a>
+          </div>
+        </div>
       </div>
-
-      <div class="card">
-        <!-- 1° Linha -->
-        <div class="card__descricao">
-          <!-- 1° Coluna -->
-          <div class="descricao">
-            <h3 class="descricao__titulo">
-              Talves você também se interesse por...
-            </h3>
-            <h2 class="descricao__titulo-livro">Angular 11 e Firebase</h2>
-            <p class="descricao__texto">
-              Construindo uma aplicação integrada com a plataforma do Google.
-            </p>
-          </div>
-          <!-- 2° Coluna -->
-          <img
-            src="angular-img.svg"
-            alt="imagem do símbolo da linguagem angular"
-            class="descricao__imagem"
-          />
-        </div>
-
-        <!-- 2° Linha -->
-        <div class="card__botoes">
-          <!-- 1° Coluna -->
-          <ul class="botoes">
-            <li class="botoes__item">
-              <img
-                src="favorite.svg"
-                alt="imagem de um coração de seleção de favoritos em 2d"
-              />
-            </li>
-            <li class="botoes__item">
-              <img src="store.svg" alt="imagem de uma loja de compras " />
-            </li>
-          </ul>
-          <!-- 2° Coluna -->
-          <a href="#" class="botoes__ancora">Saiba mais</a>
-        </div>
-      </div>
+      
     </section>
 
     <!-- Section do segundo carrossel, o layout foi replicado para produzir os mesmos efeitos do carrossel anterior, porém com modificações-->
     <section class="carrossel">
       <h2 class="carrossel__titulo">Mais vendidos</h2>
       <!-- Slider main container -->
-      <div class="swiper">
-        <!-- If we need pagination -->
-        <div class="swiper-pagination"></div>
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper">
-          <!-- Slides -->
-          <div class="swiper-slide">
-            <img src="book-five.svg" alt="livro 5" />
+      <div class="carrossel__container">
+        <div class="swiper">
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img src="book-five.svg" alt="livro 5" />
+            </div>
+            <div class="swiper-slide">
+              <img src="book-eight.svg" alt="livro 3" />
+            </div>
+            <div class="swiper-slide">
+              <img src="book-seven.svg" alt="livro 2" />
+            </div>
+            <div class="swiper-slide">
+              <img src="book-four.svg" alt="livro 4" />
+            </div>
+            <div class="swiper-slide">
+              <img src="book-six.svg" alt="livro 6" />
+            </div>
+            <div class="swiper-slide">
+              <img src="book-one.svg" alt="livro 1" />
+            </div>
+            ...
           </div>
-          <div class="swiper-slide">
-            <img src="book-eight.svg" alt="livro 3" />
-          </div>
-          <div class="swiper-slide">
-            <img src="book-seven.svg" alt="livro 2" />
-          </div>
-          <div class="swiper-slide">
-            <img src="book-four.svg" alt="livro 4" />
-          </div>
-          <div class="swiper-slide">
-            <img src="book-six.svg" alt="livro 6" />
-          </div>
-          <div class="swiper-slide">
-            <img src="book-one.svg" alt="livro 1" />
-          </div>
-          ...
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
         </div>
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-      </div>
-      <div class="card">
-        <!-- 1° Linha -->
-        <div class="card__descricao">
-          <!-- 1° Coluna -->
-          <div class="descricao">
-            <ul>
-              <li><img src="star.svg" alt="imagem de um estrela" /></li>
-              <li><img src="star.svg" alt="imagem de um estrela" /></li>
-              <li><img src="star.svg" alt="imagem de um estrela" /></li>
-              <li><img src="star.svg" alt="imagem de um estrela" /></li>
-              <li><img src="star.svg" alt="imagem de um estrela" /></li>
+        <div class="card">
+          <!-- 1° Linha -->
+          <div class="card__descricao">
+            <!-- 1° Coluna -->
+            <div class="descricao">
+              <ul>
+                <li><img src="star.svg" alt="imagem de um estrela" /></li>
+                <li><img src="star.svg" alt="imagem de um estrela" /></li>
+                <li><img src="star.svg" alt="imagem de um estrela" /></li>
+                <li><img src="star.svg" alt="imagem de um estrela" /></li>
+                <li><img src="star.svg" alt="imagem de um estrela" /></li>
+              </ul>
+              <h3 class="descricao__titulo">Autora do Mês</h3>
+              <h2 class="descricao__titulo-livro">Juliana Agarikov</h2>
+              <p class="descricao__texto">
+                Analista de sistemas e escritora, Juliana é especialista em
+                Front-End.
+              </p>
+            </div>
+            <!-- 2° Coluna -->
+            <img
+              src="woman-img.svg"
+              alt="imagem do símbolo da linguagem angular"
+              class="descricao__imagem"
+            />
+          </div>
+          <!-- 2° Linha -->
+          <div class="card__botoes">
+            <!-- 1° Coluna -->
+            <ul class="botoes">
+              <li class="botoes__item">
+                <img
+                  src="favorite.svg"
+                  alt="imagem de um coração de seleção de favoritos em 2d"
+                />
+              </li>
+              <li class="botoes__item">
+                <img src="store.svg" alt="imagem de uma loja de compras " />
+              </li>
             </ul>
-            <h3 class="descricao__titulo">Autora do Mês</h3>
-            <h2 class="descricao__titulo-livro">Juliana Agarikov</h2>
-            <p class="descricao__texto">
-              Analista de sistemas e escritora, Juliana é especialista em
-              Front-End.
-            </p>
+            <!-- 2° Coluna -->
+            <a href="#" class="botoes__ancora">Saiba mais</a>
           </div>
-          <!-- 2° Coluna -->
-          <img
-            src="woman-img.svg"
-            alt="imagem do símbolo da linguagem angular"
-            class="descricao__imagem"
-          />
-        </div>
-        <!-- 2° Linha -->
-        <div class="card__botoes">
-          <!-- 1° Coluna -->
-          <ul class="botoes">
-            <li class="botoes__item">
-              <img
-                src="favorite.svg"
-                alt="imagem de um coração de seleção de favoritos em 2d"
-              />
-            </li>
-            <li class="botoes__item">
-              <img src="store.svg" alt="imagem de uma loja de compras " />
-            </li>
-          </ul>
-          <!-- 2° Coluna -->
-          <a href="#" class="botoes__ancora">Saiba mais</a>
         </div>
       </div>
     </section>
@@ -324,8 +334,7 @@
           </li>
           <li class="footer__educacao-item">
             <img src="casa-do-codigo.svg" alt="logo casa do código" />
-            <a href="#" class="footer__educacao-link">Casa do
-              código</a>
+            <a href="#" class="footer__educacao-link">Casa do código</a>
           </li>
         </ul>
       </div>
@@ -334,19 +343,24 @@
         <ul class="footer__educacao__online_lista-dois">
           <li class="footer__educacao__online-item">
             <img src="alura.svg" alt="logo da alura" />
-        <a href="#" class="footer__educacao__online-link">Alura</a>
+            <a href="#" class="footer__educacao__online-link">Alura</a>
           </li>
           <li class="footer__educacao__online-item">
-            <img src="alura-para-empresa.svg" alt="logo da alura para empresas" />
-        <a href="#" class="footer__educacao__online-link">Alura para empresas</a>
+            <img
+              src="alura-para-empresa.svg"
+              alt="logo da alura para empresas"
+            />
+            <a href="#" class="footer__educacao__online-link"
+              >Alura para empresas</a
+            >
           </li>
           <li class="footer__educacao__online-item">
             <img src="alura-latam.svg" alt="logo da alura latam" />
-        <a href="#" class="footer__educacao__online-link">Alura LATAM</a>
+            <a href="#" class="footer__educacao__online-link">Alura LATAM</a>
           </li>
           <li class="footer__educacao__online-item">
             <img src="alura-start.svg" alt="" />
-        <a href="#" class="footer__educacao__online-link">Alura Start</a>
+            <a href="#" class="footer__educacao__online-link">Alura Start</a>
           </li>
           <li class="footer__educacao__online-item">
             <img src="musicdot.svg" alt="logo da musicdot" />
@@ -354,14 +368,13 @@
           </li>
           <li class="footer__educacao__online-item">
             <img src="alura-lingua.svg" alt="logo da alura língua" />
-        <a href="#" class="footer__educacao__online-link">Alura Língua</a>
+            <a href="#" class="footer__educacao__online-link">Alura Língua</a>
           </li>
           <li class="footer__educacao__online-item">
             <img src="pm3.svg" alt="logo do pm3" />
-        <a href="#" class="footer__educacao__online-link">PM3</a>
+            <a href="#" class="footer__educacao__online-link">PM3</a>
           </li>
         </ul>
-        
       </div>
       <div class="footer__comunidade">
         <h2 class="comunidade__topico">Comunidade</h2>
@@ -376,7 +389,7 @@
           </li>
           <li class="footer__comunidade-item">
             <img src="layers-ponto.svg" alt="logo da layers ponto tech" />
-        <a href="#" class="footer__comunidade-link">Layers ponto Tech</a>
+            <a href="#" class="footer__comunidade-link">Layers ponto Tech</a>
           </li>
           <li class="footer__comunidade-item">
             <img src="like-a-boss.svg" alt="logo da like a boos" />
@@ -384,18 +397,20 @@
           </li>
           <li class="footer__comunidade-item">
             <img
-          src="carreira-sem-fronteira.svg"
-          alt="logo da carreira sem fronteiras"
-        />
-        <a href="#" class="footer__comunidade-link">Carreira sem Fronteira</a>
+              src="carreira-sem-fronteira.svg"
+              alt="logo da carreira sem fronteiras"
+            />
+            <a href="#" class="footer__comunidade-link"
+              >Carreira sem Fronteira</a
+            >
           </li>
           <li class="footer__comunidade-item">
             <img src="hipster-job.svg" alt="logo da hipsters ponto jobs" />
-        <a href="#" class="footer__comunidade-link">Hipsters ponto Jobs</a>
+            <a href="#" class="footer__comunidade-link">Hipsters ponto Jobs</a>
           </li>
           <li class="footer__comunidade-item">
             <img src="guj.svg" alt="logo da guj" />
-        <a href="#" class="footer__comunidade-link">GUJ</a>
+            <a href="#" class="footer__comunidade-link">GUJ</a>
           </li>
         </ul>
       </div>

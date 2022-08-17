@@ -33,7 +33,7 @@
   .footer {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
   }
   .educao__topico, .educacao-online__topico, .comunidade__topico {
     text-transform: uppercase;
