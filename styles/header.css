@@ -80,6 +80,13 @@
     padding: 1.5em;
     box-sizing: border-box;
   }
+  .lista-menu__item:hover {
+    background-color: var(--blue-color);
+  }
+  .lista-menu__item:hover > .lista-menu__link:hover{
+    -webkit-text-fill-color: var(--white-color);
+    text-decoration: none;
+  }
   .opcoes {
     display: flex;
     align-items: center;
