@@ -6,6 +6,10 @@
   background-position: center;
   display: inline-block;
 }
+.container__botao:checked ~ .container__rotulo > .cabecalho__menu-hamburguer {
+  background-image: url("../botao-menu-branco.svg");
+  background-color: var(--blue-color);
+}
 .cabecalho {
   background-color: var(--white-color);
   display: flex;
@@ -69,6 +73,12 @@
   }
   .container__titulo--negrito {
     font-weight: 700;
+  }
+  .opcoes__botao:checked ~ .opcoes__rotulo > .opcoes__item {
+    color: var(--white-color);
+    background-color: var(--blue-color);
+    padding: 1.5em;
+    box-sizing: border-box;
   }
   .opcoes {
     display: flex;
